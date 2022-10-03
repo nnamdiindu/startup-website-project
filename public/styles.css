@@ -1,0 +1,59 @@
+
+.navbar-div,
+.landing {
+    background-color: #74C69D;
+    color: white !important;
+    padding: 0 7% 2%;
+}
+
+/* Partner Div */
+.partners, 
+.team-div,
+.options,
+.portfolio,
+.services,
+.contact{
+    padding: 5% 7% 5%;
+}
+
+.partner-header {
+    color: #74C69D;
+}
+
+.partner-img {
+    margin: 1%;
+}
+
+@media screen and (max-width: 762px) {
+    .partner-img {
+        max-width: 50%;
+        margin: auto;
+        display: block;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        text-align: center;
+   }
+   iframe {
+    max-width: 320px;
+   }
+}
+
+/* Team Section */
+.person-div {
+    margin: auto;
+    max-width: 250px !important;
+    height: auto;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+/* Footer Section */
+.footer{
+    background-color: #74C69D;
+    color: white;
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.brands{
+    padding: 7px;
+}
